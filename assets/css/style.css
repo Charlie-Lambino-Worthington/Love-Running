@@ -11,7 +11,7 @@
 /*general styles*/
 body {
     min-height: 100vh;
-    display:flex;
+    display: flex;
     flex-direction: column;
     /*generic project styles*/
     color: #3a3a3a;
@@ -61,12 +61,12 @@ nav{
     display: none;
     top: 100%;
 }
-/*nav toggle*/
-#nav-togggle:checked~nav {
+/* Nav toggle */
+#nav-toggle:checked~nav {
 display: block;
 }
 #nav-toggle {
-    display:none
+    display: none;
 }
 .nav-toggle-label {
     font-size: 2rem;
@@ -76,6 +76,7 @@ main {
     background-color: aqua;
     /*make main element take up any surplass space*/
     flex:1 0 auto;
+    margin-top: 47px;
 }
 /*footer*/
 footer {
