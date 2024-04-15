@@ -120,6 +120,12 @@ hr {
     border-top: 1px solid #3a3a3a;
     margin: 5px 0;
 }
+#circle-cover-background {
+    width: 90vw;
+    height: 90vw;
+    background: url("../images/reasons-image.webp") no-repeat center center/cover;
+    margin: 20px;
+}
 /*footer*/
 
 #social-networks {
